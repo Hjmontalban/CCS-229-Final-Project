@@ -1,0 +1,5 @@
+# Humphrey John M. Montalban | BSCS 3B - AI |CCS 229 - Intelligent Systems Final Project
+
+python-dotenv==1.0.1
+google-generativeai==0.3.2
+streamlit==1.30.0
