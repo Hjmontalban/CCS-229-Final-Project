@@ -39,6 +39,7 @@ if "chat_session" not in st.session_state:
 
 # Display the chatbot's title on the page
 st.title("🤖 Hi Im Chatbot featuring Gemini - Pro")
+st.title("How can I Help you!")
 
 # Display the chat history
 for message in st.session_state.chat_session.history:
@@ -46,7 +47,7 @@ for message in st.session_state.chat_session.history:
         st.markdown(message.parts[0].text)
 
 # Input field for user's message
-user_prompt = st.chat_input("Ask me to answer I'm Chatbot...")
+user_prompt = st.chat_input("Ask me to answer, I'm Chatbot...")
 if user_prompt:
     # Add user's message to chat and display it
     st.chat_message("user").markdown(user_prompt)
